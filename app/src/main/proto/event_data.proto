@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package com.example.assistant;
+
+option java_package = "com.example.assistant";
+option java_multiple_files = true;
+
+message TextData {
+  string text = 1;
+  string type = 2;
+  bool is_clickable = 3;
+  bool is_editable = 4;
+  string class_name = 5;
+  int32 depth = 6;
+  int32 x = 7;
+  int32 y = 8;
+  int32 width = 9;
+  int32 height = 10;
+}
+
+message ElementCounts {
+  map<string, int32> counts = 1;
+}
+
+message ScreenSummary {
+  string combined_text = 1;
+  ElementCounts element_counts = 2;
+  bool has_email_field = 3;
+  bool has_password_field = 4;
+  bool has_search_field = 5;
+  int32 clickable_count = 6;
+  int32 editable_count = 7;
+}
+
+message TextFocusedData {
+  int64 timestamp = 1;
+  string package_name = 2;
+  repeated TextData text_data = 3;
+  ScreenSummary screen_summary = 4;
+}
+
+message EventData {
+  int64 timestamp = 1;
+  string package_name = 2;
+  int32 window_id = 3;
+  string window_title = 4;
+  string window_type = 5;
+  TextFocusedData text_focused_data = 6;
+}

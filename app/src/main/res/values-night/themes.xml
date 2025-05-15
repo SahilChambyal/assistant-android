@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Assistant" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Color scheme -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/primary_foreground</item>
+        <item name="colorOnPrimaryContainer">@color/primary_container_foreground</item>
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondary">@color/secondary_foreground</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_container_foreground</item>
+        
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/surface_foreground</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/foreground</item>
+
+        <!-- Status bar and navigation -->
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Component styles -->
+        <item name="materialButtonStyle">@style/Widget.Assistant.Button</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Assistant.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.Assistant.Card</item>
+        <item name="textInputStyle">@style/Widget.Assistant.TextInputLayout</item>
+        <item name="chipStyle">@style/Widget.Assistant.Chip</item>
+        <item name="switchStyle">@style/Widget.Assistant.Switch</item>
+    </style>
+</resources>

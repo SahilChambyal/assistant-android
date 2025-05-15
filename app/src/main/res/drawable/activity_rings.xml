@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Move ring (outer) -->
+    <item>
+        <shape android:shape="ring"
+            android:innerRadius="35dp"
+            android:thickness="10dp"
+            android:useLevel="true"
+            android:thicknessRatio="9">
+            <solid android:color="#FF1C47"/>
+        </shape>
+    </item>
+    <!-- Exercise ring (middle) -->
+    <item>
+        <shape android:shape="ring"
+            android:innerRadius="27dp"
+            android:thickness="8dp"
+            android:useLevel="true"
+            android:thicknessRatio="9">
+            <solid android:color="#96FF3B"/>
+        </shape>
+    </item>
+    <!-- Stand ring (inner) -->
+    <item>
+        <shape android:shape="ring"
+            android:innerRadius="20dp"
+            android:thickness="7dp"
+            android:useLevel="true"
+            android:thicknessRatio="9">
+            <solid android:color="#36F8FF"/>
+        </shape>
+    </item>
+</layer-list>

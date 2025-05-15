@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="background">#000000</color>
+    <color name="foreground">#FFFFFF</color>
+    
+    <!-- Card and surface colors -->
+    <color name="surface">#18181B</color>
+    <color name="surface_foreground">#FFFFFF</color>
+    <color name="card">#27272A</color>
+    <color name="card_foreground">#FFFFFF</color>
+    
+    <!-- Primary colors -->
+    <color name="primary">#FFFFFF</color>
+    <color name="primary_foreground">#000000</color>
+    <color name="primary_container">#27272A</color>
+    <color name="primary_container_foreground">#FFFFFF</color>
+    
+    <!-- Secondary colors -->
+    <color name="secondary">#A1A1AA</color>
+    <color name="secondary_foreground">#18181B</color>
+    <color name="secondary_container">#3F3F46</color>
+    <color name="secondary_container_foreground">#FAFAFA</color>
+    
+    <!-- Accent colors -->
+    <color name="accent">#006FEE</color>
+    <color name="accent_foreground">#FFFFFF</color>
+    <color name="accent_container">#004282</color>
+    <color name="accent_container_foreground">#FFFFFF</color>
+    <color name="accent_light">#4D99EE</color>
+    
+    <!-- Neutral variants -->
+    <color name="muted">#A1A1AA</color>
+    <color name="muted_foreground">#71717A</color>
+    
+    <!-- States -->
+    <color name="hover">#FFFFFF14</color>
+    <color name="pressed">#FFFFFF1F</color>
+    <color name="focus">#FFFFFF2A</color>
+<!--    <color name="border">#27272A</color>-->
+    
+    <!-- Semantic colors -->
+    <color name="success">#0AC264</color>
+    <color name="warning">#F5A524</color>
+    <color name="error">#F31260</color>
+    <color name="info">#0072F5</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">@color/foreground</color>
+    <color name="text_secondary">@color/muted</color>
+    <color name="text_error">#EF4444</color>
+    
+    <!-- Dividers and borders -->
+    <color name="border">#27272A</color>
+    <color name="divider">#27272A</color>
+</resources>

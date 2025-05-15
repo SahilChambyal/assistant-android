@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">assistant</string>
+    <string name="accessibility_service_description">Accessibility event logger for Assistant app</string>
+</resources>

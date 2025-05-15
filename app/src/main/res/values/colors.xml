@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="foreground">#0A0A0A</color>
+    
+    <!-- Card and surface colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_foreground">#0A0A0A</color>
+    <color name="card">#F2F2F2</color>
+    <color name="card_foreground">#0A0A0A</color>
+    
+    <!-- Primary colors -->
+    <color name="primary">#18181B</color>
+    <color name="primary_foreground">#FFFFFF</color>
+    <color name="primary_container">#F4F4F5</color>
+    <color name="primary_container_foreground">#18181B</color>
+    
+    <!-- Secondary colors -->
+    <color name="secondary">#71717A</color>
+    <color name="secondary_foreground">#FFFFFF</color>
+    <color name="secondary_container">#E4E4E7</color>
+    <color name="secondary_container_foreground">#27272A</color>
+    
+    <!-- Accent colors -->
+    <color name="accent">#006FEE</color>
+    <color name="accent_foreground">#FFFFFF</color>
+    <color name="accent_container">#EEF6FF</color>
+    <color name="accent_container_foreground">#006FEE</color>
+    <color name="accent_light">#338FEE</color>
+    
+    <!-- Neutral variants -->
+    <color name="muted">#71717A</color>
+    <color name="muted_foreground">#A1A1AA</color>
+    
+    <!-- States -->
+    <color name="hover">#0000000A</color>
+    <color name="pressed">#00000014</color>
+    <color name="focus">#0000001F</color>
+<!--    <color name="border">#E4E4E7</color>-->
+    
+    <!-- Semantic colors -->
+    <color name="success">#17C964</color>
+    <color name="warning">#F5A524</color>
+    <color name="error">#F31260</color>
+    <color name="info">#0072F5</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">@color/foreground</color>
+    <color name="text_secondary">@color/muted</color>
+    <color name="text_error">#DC2626</color>
+    
+    <!-- Dividers and borders -->
+    <color name="border">#E4E4E7</color>
+    <color name="divider">#E4E4E7</color>
+    
+    <!-- System theme compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
